@@ -53,10 +53,10 @@
 
 // Check grade using if-else ladder
 // 90-100=a+
-// 80-<90=A 
-// 70-<80=B 
-// 60-<70=C 
-// else=D 
+// 80-<90=A
+// 70-<80=B
+// 60-<70=C
+// else=D
 // let a=106;
 // if(a>=90&&a<=100){
 //   console.log("A+");
@@ -121,10 +121,6 @@
 //   console.log("Invalid input")
 // }
 
-
-
-
-
 // BItwise operators
 // let a=55;
 // let b=90;
@@ -151,7 +147,7 @@
 // while(n>0){
 //     sum = sum + n%10;
 //     n /= 10;
-    
+
 // }
 // Iterations
 // 1. sum = 0;
@@ -187,14 +183,10 @@
 //   console.log(`${n} * ${a} = ${n*a}`);
 // }
 
-
-
-
-
-// Write a  program that asks the user to 
-// enter a number and repeatedly divides the 
-// number by 2 until it becomes less than or 
-// equal to 1. Print each result during the 
+// Write a  program that asks the user to
+// enter a number and repeatedly divides the
+// number by 2 until it becomes less than or
+// equal to 1. Print each result during the
 // process using do-while loop.
 // let n=44;
 // do {
@@ -213,7 +205,7 @@
 // for(let i=1;i<num.length;i++){
 // if(num[i]>max){
 //   max=num[i];
-// } 
+// }
 // }
 // console.log(max);
 
@@ -256,3 +248,46 @@
 // }
 // avg=sum/num.length;
 // console.log(avg);
+
+
+
+
+
+
+
+// function definition
+// function maxoftwo(first, second){
+//     console.log((first>second)?first:second);
+// }
+
+// // function invoke or call
+// maxoftwo(10,5);
+// maxoftwo(50,90);
+// maxoftwo(1)
+
+
+
+
+
+// // let and var difference
+// let arr = [20,30,40,50];
+// let sum = 0;
+// for(let i = 0 ; i < arr.length ; i++){    sum+=arr[i];        
+// }
+// console.log(sum);
+// console.log(i);
+
+
+
+
+
+
+
+
+// // find the power
+// function power(base, exponent){
+//     let result=0;
+//     result=base ** exponent;
+//     console.log(result);
+// }
+// power(2,4);
